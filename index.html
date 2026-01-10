@@ -189,14 +189,14 @@
                     </a>
                 </div>
 
-                <!-- Mobile Menu Btn (Fix: Added id and pointer style) -->
+                <!-- Mobile Menu Btn -->
                 <div class="md:hidden z-20 text-slate-900 cursor-pointer p-2" id="mobile-menu-btn">
                     <i class="fas fa-bars text-xl"></i>
                 </div>
             </div>
         </div>
 
-        <!-- Mobile Menu Dropdown (Fix: Added missing HTML structure) -->
+        <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-white border-t border-slate-100 shadow-lg z-10 flex flex-col p-4 space-y-4">
             <a href="#features" class="block text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 px-4 py-2 rounded-lg transition">功能</a>
             <a href="#pricing" class="block text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 px-4 py-2 rounded-lg transition">价格</a>
@@ -505,11 +505,29 @@
         </div>
     </section>
 
+    <!-- 免责声明 (新增) -->
+    <section id="agreement" class="py-12 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">免责与合规声明</h2>
+            <div class="text-xs text-slate-500 space-y-4 leading-relaxed text-justify md:text-center max-w-3xl mx-auto">
+                <p>
+                    <strong>1. AI 技术局限性：</strong> AILinkX 基于大语言模型技术提供辅助建议。由于 AI 技术的内在特性，生成内容可能存在随机性、不准确性或幻觉。软件提供的所有回复、分析及决策建议仅供参考，<strong>不代表最终事实或立场</strong>。用户需在发送或执行前进行人工审核，并对最终行为产生的后果承担全部责任。
+                </p>
+                <p>
+                    <strong>2. 账号使用规范：</strong> 本软件采用非侵入式 UI 自动化技术，旨在提升个人数字生活效率。用户在使用过程中必须严格遵守微信及相关服务平台的用户协议与规范。<strong>严禁将本软件用于违规营销、群发骚扰、诈骗等非法用途。</strong> 因用户违反平台规则或使用不当导致的账号限制、封禁等风险，由用户自行承担，开发方不承担任何连带责任。
+                </p>
+                <p>
+                    <strong>3. 数据安全与隐私：</strong> AILinkX 坚持“本地优先”原则，您的聊天记录、记忆库及训练模型均存储于本地设备。请妥善保管您的电脑及数据文件。因用户设备丢失、被盗或被恶意软件入侵导致的数据泄露，我们深表遗憾但无法承担责任。
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- 极简 Footer -->
     <footer class="bg-white border-t border-slate-100 py-8">
         <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
             <div class="flex items-center gap-2">
-                <img src="assets/icons/favicon.svg" class="w-5 h-5 object-contain grayscale opacity-50" onerror="this.style.display='none'">
+                <img src="assets/icon.png" class="w-5 h-5 object-contain grayscale opacity-50" onerror="this.style.display='none'">
                 <span class="font-semibold text-slate-500">AILinkX</span>
                 <span>© 2026 墨智工坊</span>
             </div>
@@ -518,7 +536,7 @@
                 <a href="#features" class="hover:text-slate-600 transition">功能</a>
                 <a href="#pricing" class="hover:text-slate-600 transition">价格</a>
                 <a href="https://aiforge.taobao.com" target="_blank" class="hover:text-slate-600 transition">店铺</a>
-                <a href="#" class="hover:text-slate-600 transition">协议</a>
+                <a href="#agreement" class="hover:text-slate-600 transition">免责声明</a>
             </div>
 
             <div>技术支持 QQ: 522765228</div>
