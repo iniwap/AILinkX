@@ -27,9 +27,8 @@
     </filter>
   </defs>
 
-  <!-- 1. 图标底座 -->
-  <!-- Windows 11 风格 Squircle：1024px 尺寸下，圆角半径约为 64px -->
-  <rect x="0" y="0" width="1024" height="1024" rx="64" ry="64" fill="#ffffff" />
+  <!-- 1. 图标底座 (透明底版本：已移除白色背景层) -->
+  <!-- <rect x="0" y="0" width="1024" height="1024" rx="64" ry="64" fill="#ffffff" /> -->
 
   <!-- 2. 图标主体内容 (放大 2 倍以适配 1024 画布) -->
   <g transform="scale(2)">
